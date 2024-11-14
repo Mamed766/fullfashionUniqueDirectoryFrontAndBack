@@ -1,0 +1,52 @@
+{
+  "name": "fashionfrontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^2.10.3",
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
+    "@stripe/react-stripe-js": "^2.8.1",
+    "@stripe/stripe-js": "^4.9.0",
+    "@types/isotope-layout": "^3.0.14",
+    "@types/react-curved-text": "^2.0.3",
+    "aos": "^2.3.4",
+    "axios": "^1.7.7",
+    "cookies-next": "^4.3.0",
+    "embla-carousel-react": "^8.3.0",
+    "formik": "^2.4.6",
+    "framer-motion": "^11.11.9",
+    "isotope-layout": "^3.0.6",
+    "js-cookie": "^3.0.5",
+    "jsonwebtoken": "^9.0.2",
+    "jwt-decode": "^4.0.0",
+    "next": "14.2.15",
+    "react": "^18",
+    "react-curved-text": "^3.0.1",
+    "react-dom": "^18",
+    "react-icons": "^5.3.0",
+    "react-image-lightbox": "^5.1.4",
+    "react-toastify": "^10.0.5",
+    "recoil": "^0.7.7",
+    "sass": "^1.79.5",
+    "simple-parallax-js": "^6.0.1",
+    "swiper": "^11.1.14",
+    "swr": "^2.2.5",
+    "yup": "^1.4.0"
+  },
+  "devDependencies": {
+    "@types/aos": "^3.0.7",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}

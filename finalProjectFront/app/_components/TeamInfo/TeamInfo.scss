@@ -1,0 +1,9 @@
+@media screen and (max-width: 1240px) {
+  .teamflex {
+    flex-direction: column !important;
+  }
+  .textflex {
+    align-items: center !important;
+    justify-content: center !important;
+  }
+}

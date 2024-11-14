@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Jost";
+}
+body {
+  overflow-x: hidden;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.mySwiper .swiper-button-prev {
+  color: #bb9d7b;
+  left: 50%;
+  top: 50%;
+  transform: translate(-100%, -50%);
+  z-index: 10;
+}
+
+.mySwiper .swiper-button-next {
+  color: #bb9d7b;
+  left: 50%;
+  top: 50%;
+  transform: translate(0%, -50%);
+  z-index: 10;
+}
+
+.mySwiper .swiper-button-prev,
+.mySwiper .swiper-button-next {
+  width: 40px;
+  height: 40px;
+}
+
+[data-aos] {
+  overflow: hidden;
+}

@@ -1,0 +1,17 @@
+@media screen and (max-width: 1100px) {
+  .flexwrapbar {
+    flex-wrap: wrap;
+  }
+
+  .newscenter {
+    justify-content: center;
+  }
+
+  .flexjustifybar {
+    justify-content: center !important;
+  }
+
+  .marginbar {
+    margin-top: 5rem;
+  }
+}

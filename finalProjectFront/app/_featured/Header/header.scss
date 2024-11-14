@@ -1,0 +1,17 @@
+@media screen and (max-width: 1240px) {
+  .header__mobile {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 1240px) {
+  .usernametext {
+    font-size: 12px !important;
+  }
+}
+
+@media screen and (min-width: 1240px) {
+  .header__xl {
+    display: none !important;
+  }
+}
